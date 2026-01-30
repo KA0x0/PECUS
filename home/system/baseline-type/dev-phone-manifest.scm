@@ -83,6 +83,7 @@
         "mpv" ;; "ffmpeg" propagated by "mpv"
         "mu"
         "mysql"
+        "node-typescript"
         "openjdk"
         "openocd"
         "openssh"

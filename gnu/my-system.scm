@@ -42,7 +42,6 @@
   #:use-module (gnu packages version-control)
   #:use-module (gnu packages virtualization)
   #:use-module (gnu packages wget)
-  #:use-module (sops packages sops)
   #:use-module (shepherd service system-log)
   #:use-module (shepherd service timer)
   #:export (%pecus-base-operating-system)

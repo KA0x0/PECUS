@@ -24,6 +24,7 @@
         "emacs-citar" "emacs-citar-denote"
         "emacs-csv-mode"
         "emacs-dape"
+        "emacs-dirvish"
         "emacs-disproject"
         "emacs-ednc"
         "emacs-ement"

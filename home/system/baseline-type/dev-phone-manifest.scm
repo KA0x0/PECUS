@@ -13,7 +13,7 @@
         "binwalk"
         "buildah"
         "diffoscope"
-        "difftastic"
+        "difftastic" "emacs-difftastic"
         "pecus-emacs-next"
         "pecus-emacs-jwt"
         "guile-emacs"

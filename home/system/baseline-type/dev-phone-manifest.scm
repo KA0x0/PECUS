@@ -77,6 +77,7 @@
         "llvm"
         "clang"
         "lldb"
+        "lua-language-server"
         "man-pages"
         "mariadb"
         "mit-krb5"

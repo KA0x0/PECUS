@@ -77,8 +77,6 @@
     "emacs-combobulate"
     "emacs-consult" "emacs-consult-eglot"
     "emacs-corfu"
-    "emacs-denote"
-    "emacs-consult-denote"
     "emacs-embark"
     "emacs-eshell-syntax-highlighting"
     "emacs-exec-path-from-shell"

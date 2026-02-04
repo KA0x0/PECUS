@@ -31,7 +31,6 @@
         "emacs-ednc"
         "emacs-ement"
         "emacs-emms" "opus-tools"
-        "emacs-exwm" "emacs-xdg-launcher"
         "emacs-filechooser"
         "emacs-forge"
         "emacs-graphql-mode"

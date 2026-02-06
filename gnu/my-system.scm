@@ -154,7 +154,7 @@
                   Unauthorized attempts and actions to access or use this system may result in civil and/or criminal penalties.\n
                   All activities performed on this device are logged and monitored.\n\n")))))
 
-(define (hardcoded-editor))
+(define hardcoded-editor)
 
 (define-public %pecus-base-services
   (append

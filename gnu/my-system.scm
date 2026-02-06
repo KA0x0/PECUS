@@ -75,7 +75,7 @@
     "emacs-consult" "emacs-consult-eglot"
     "emacs-corfu"
     "emacs-doom-modeline"
-    "emacs-embark"
+    "emacs-embark" "emacs-embark-consult"
     "emacs-eshell-syntax-highlighting"
     "emacs-exec-path-from-shell"
     "emacs-gptel"

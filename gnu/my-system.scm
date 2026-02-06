@@ -43,10 +43,7 @@
   #:use-module (gnu packages virtualization)
   #:use-module (gnu packages wget)
   #:use-module (shepherd service system-log)
-  #:use-module (shepherd service timer)
-  #:export (%pecus-base-operating-system)
-  #:export (%pecus-base-packages)
-  #:export (%pecus-base-services))
+  #:use-module (shepherd service timer))
 
 (define-public %pecus-base-operating-system
   (operating-system

@@ -145,7 +145,7 @@
     "xz"
     "zstd")))
 
-(define pecus-motd
+(define-public pecus-motd
      (service login-service-type
                (login-configuration
                 (motd (plain-file "motd" "\
@@ -154,7 +154,7 @@
                   Unauthorized attempts and actions to access or use this system may result in civil and/or criminal penalties.\n
                   All activities performed on this device are logged and monitored.\n\n")))))
 
-(define hardcoded-editor)
+(define-public hardcoded-editor)
 
 (define-public %pecus-base-services
   (append

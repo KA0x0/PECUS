@@ -98,7 +98,7 @@ environment variables appropriately.")
              (commit (string-append "v" version))))
               (file-name (git-file-name name version))
        (sha256
-        (base32 "d7deb62f8c2df58d5cfebf087a147c75207964e8"))))
+        (base32 "d6754f8fab6ff4041a7bece1963495e99ad9fe68"))))
     (build-system emacs-build-system)
    (home-page "https://github.com/joshbax189/jwt-el")
     (synopsis "Interact with JSON Web Tokens from Emacs")

@@ -83,7 +83,7 @@
     (synopsis "Support for 'guix shell'")
     (description
     "This Emacs extension integrates 'guix shell' to set per-buffer
-environment variables appropriately.")
+     environment variables appropriately.")
     (license gpl3+)))
 
 (define-public pecus-emacs-jwt
@@ -105,6 +105,5 @@ environment variables appropriately.")
     (description
     "Decode and verify JSON Web Tokens in Emacs.")
     (license gpl3+)))
-
 
 ;;; emacs.scm ends here

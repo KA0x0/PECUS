@@ -122,6 +122,7 @@
         "sshfs"
         "steam-client"
         "tiled"
+        "tree-sitter-asm"
         "tree-sitter-c"
         "tree-sitter-cpp"
         "tree-sitter-csv"

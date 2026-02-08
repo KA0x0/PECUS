@@ -45,6 +45,7 @@
         "emacs-nov-el"
         "emacs-org-caldav"
         "emacs-org-contacts"
+        "emacs-org-ql"
         "emacs-org-vcard"
         "emacs-osm"
         "emacs-polymode" "emacs-polymode-org"

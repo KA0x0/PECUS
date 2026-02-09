@@ -84,7 +84,7 @@
         "mit-krb5"
         "monero"
         "mpv" ;; "ffmpeg" propagated by "mpv"
-        "mu"
+        "mu" "emacs-consult-mu"
         "mysql"
         "node-typescript"
         "openjdk"

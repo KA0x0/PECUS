@@ -71,6 +71,7 @@
         "go-minify"
         "graphviz" "emacs-graphviz-dot-mode"
         "guile-aws"
+        "inkscape"
         "imagemagick"
         "iw"
         "java-eclipse-jdt-core"

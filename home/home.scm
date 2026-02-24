@@ -60,14 +60,6 @@
             (service home-dotfiles-service-type
               (home-dotfiles-configuration
                 (directories '("../gnu/home/services/config"))))
-            (service home-shepherd-service-type
-              (home-shepherd-configuration
-               (services
-                (list
-                  (shepherd-service
-                    (provision '(emacs))
-                     (start #~(make-system-constructor "emacs --daemon"))
-                     (stop #~(make-system-constructor "emacsclient --eval '(kill-emacs)'")))))))
             (service unattended-upgrade-service-type))))))
 
 ;;; home.scm ends here

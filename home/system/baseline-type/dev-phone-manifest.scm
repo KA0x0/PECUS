@@ -149,7 +149,6 @@
         "wine64-staging"
         "wireguard-tools"
         "wireshark"
-        "xrandr"
         "yt-dlp"
         "zbar"
         "zig" "emacs-zig-mode"

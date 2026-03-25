@@ -83,7 +83,6 @@
     "emacs-lispy"
     "emacs-logview"
     "emacs-marginalia"
-    "emacs-mcp"
     "emacs-orderless"
     "emacs-prism"
     "emacs-vertico"

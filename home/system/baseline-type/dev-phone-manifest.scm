@@ -146,6 +146,7 @@
         "upx"
         "valkey"
         "wget"
+        "whisper-cpp"
         "wine64-staging"
         "wireguard-tools"
         "wireshark"

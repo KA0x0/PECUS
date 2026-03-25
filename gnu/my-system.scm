@@ -78,8 +78,6 @@
     "emacs-embark" "emacs-embark-consult"
     "emacs-eshell-syntax-highlighting"
     "emacs-exec-path-from-shell"
-    "emacs-gptel"
-    "emacs-gptel-agent"
     "emacs-guix"
     "emacs-inheritenv"
     "emacs-lispy"

@@ -79,7 +79,6 @@
         bluez
         dbus
         pecus-emacs-next
-        emacs-exwm
         emacs-xdg-launcher
         fontconfig
         iwd

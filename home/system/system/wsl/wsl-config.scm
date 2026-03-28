@@ -1,10 +1,10 @@
 ;;; Code:
 
 (use-modules
-  (gnu)
-  (guix)
-  (guix packages)
-  (srfi srfi-1))
+  gnu
+  guix
+  guix packages
+  srfi srfi-1)
 (use-service-modules
   mcron
   shepherd

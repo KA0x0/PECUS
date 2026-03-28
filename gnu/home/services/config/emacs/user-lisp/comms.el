@@ -1,4 +1,4 @@
-;;; coms.el --- Messaging clients configurations -*- lexical-binding: t; -*-
+;;; comms.el --- Messaging clients configurations -*- lexical-binding: t; -*-
 
 ;;; Commentary:
 
@@ -7,6 +7,6 @@
 (use-package ement)
 
 
-(provide 'pecus-coms)
+(provide 'pecus-comms)
 
 ;;; comms.el ends here

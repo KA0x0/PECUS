@@ -4,12 +4,6 @@
 
 ;;; Code:
 
-(use-package gpt)
-
-(use-package mcp-hub
- :config
- (setopt mcp-hub-servers))
-
 
 (provide 'pecus-llm)
 

@@ -9,4 +9,4 @@
 
 (provide 'pecus-coms)
 
-;;; coms.el ends here
+;;; comms.el ends here

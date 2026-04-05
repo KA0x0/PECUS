@@ -124,7 +124,7 @@
     "procps"
     "polkit"
     "python-debug-sans-pip-wrapper"
-    "python-lsp-ruff"
+    "ruff"
     "rsync"
     "sed"
     "shadow"

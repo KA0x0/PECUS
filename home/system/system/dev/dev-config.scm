@@ -80,7 +80,6 @@
         bluez
         dbus
         pecus-emacs-next
-        emacs-xdg-launcher
         fontconfig
         iwd
         mailutils

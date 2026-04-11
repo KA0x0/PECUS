@@ -9,6 +9,7 @@
 (specifications->manifest
       '("buildah"
         "crun"
-        "podman"))
+        "podman"
+        "skopeo"))
 
 ;;; container-host-manifest.scm ends here

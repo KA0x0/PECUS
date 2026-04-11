@@ -44,7 +44,7 @@
         "emacs-magit"
         "emacs-markdown-mode"
         "emacs-mentor"
-        "emacs-nerd-icons"
+        "emacs-nerd-icons" "emacs-nerd-icons-completion" "emacs-nerd-icons-corfu" "emacs-nerd-icons-dired" "emacs-nerd-icons-ibuffer"
         "emacs-nov-el"
         "emacs-org-caldav"
         "emacs-org-contacts"

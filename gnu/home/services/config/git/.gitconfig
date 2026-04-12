@@ -40,5 +40,7 @@
 [rerere]
         enabled = true
         autoupdate = true
+[status]
+        showStash = true
 [tag]
         sort = version:refname

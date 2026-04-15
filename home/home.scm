@@ -59,8 +59,7 @@
                ("TMOUT"            . "898"))
             (service home-dotfiles-service-type
               (home-dotfiles-configuration
-                (layout '(stow))
-                (directories '("../gnu/home/services/config")))) ;; Use "packages" field to limit propagated files to only the correspondind ones in the profile
+                (directories '("../gnu/home/services/config"))))
             (service unattended-upgrade-service-type))))))
 
 ;;; home.scm ends here

@@ -43,7 +43,6 @@
                   (name "beacon")
                   (comment "Beaconing")
                   (group "users")
-                  (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/beacon"))
                 %base-user-accounts))
   (bootloader

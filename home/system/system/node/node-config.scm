@@ -42,10 +42,11 @@
                   (name "virtualizer")
                   (comment "I virtualize stuff")
                   (group "users")
-                  (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/virtualizer")
                   (supplementary-groups
-                    '("kvm" "netdev")))
+                    '("cgroup"
+                      "kvm"
+                      "netdev")))
                 %base-user-accounts))
   (bootloader
     (bootloader-configuration

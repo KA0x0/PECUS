@@ -43,7 +43,6 @@
                   (name "build")
                   (comment "I build stuff")
                   (group "users")
-                  (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/build"))
                 %base-user-accounts))
   (bootloader

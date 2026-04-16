@@ -50,7 +50,13 @@
                   (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/ka0x")
                   (supplementary-groups
-                    '("adbusers" "audio" "kvm" "netdev" "video" "wheel")))
+                    '("adbusers"
+                      "audio"
+                      "cgroup"
+                      "kvm"
+                      "netdev"
+                      "video"
+                      "wheel")))
                 %base-user-accounts))
   (bootloader
     (bootloader-configuration

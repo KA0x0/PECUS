@@ -45,7 +45,6 @@
                   (name "route")
                   (comment "Routing")
                   (group "users")
-                  (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/route"))
                 %base-user-accounts))
   (bootloader

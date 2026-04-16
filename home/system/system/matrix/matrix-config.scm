@@ -42,7 +42,6 @@
                   (name "neo")
                   (comment "The One")
                   (group "users")
-                  (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/neo"))
                 %base-user-accounts))
   (bootloader

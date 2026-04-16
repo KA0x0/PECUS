@@ -43,7 +43,6 @@
                   (name "mobile")
                   (comment "Mobile")
                   (group "users")
-                  (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/mobile"))
                 %base-user-accounts))
   (bootloader

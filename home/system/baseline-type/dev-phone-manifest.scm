@@ -54,6 +54,7 @@
         "emacs-polymode" "emacs-polymode-org"
         "emacs-tempel" "emacs-eglot-tempel"
         "emacs-verb"
+        "emacs-whisper-el"
         "emacs-x509-mode"
         "file"
         "flac"

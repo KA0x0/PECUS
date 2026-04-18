@@ -53,7 +53,9 @@
 
 (define-public %pecus-base-packages
   (map specification->package
-  '("awscli-2"
+  '("age"
+    "emacs-age"
+    "awscli-2"
     "bash"
     "bcachefs-linux-module"
     "bcachefs-tools"

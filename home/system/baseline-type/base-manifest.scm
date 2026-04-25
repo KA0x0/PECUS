@@ -6,7 +6,7 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("pecus-emacs-next-no-x"))
+(packages->manifest
+      (list pecus-emacs-next-no-x))
 
 ;;; base-manifest.scm ends here

@@ -6,8 +6,8 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("cuirass"
-        "emacs-build-farm"))
+(packages->manifest
+      (list cuirass
+            emacs-build-farm))
 
 ;;; buildfarm-manifest.scm ends here

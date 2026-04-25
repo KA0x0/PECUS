@@ -6,10 +6,10 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("buildah"
-        "crun"
-        "podman"
-        "skopeo"))
+(packages->manifest
+      (list buildah
+            crun
+            podman
+            skopeo))
 
 ;;; container-host-manifest.scm ends here

@@ -6,8 +6,8 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("libvirt"
-        "qemu"))
+(packages->manifest
+      (list libvirt
+            qemu))
 
 ;;; hypervisor-manifest.scm ends here

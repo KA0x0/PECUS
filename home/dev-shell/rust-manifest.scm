@@ -6,7 +6,7 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("rust"))
+(packages->manifest
+      (list rust))
 
 ;;; rust.scm ends here

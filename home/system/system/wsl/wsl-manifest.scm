@@ -6,9 +6,9 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("pecus-emacs-next"
-        "hashcat"
-        "virt-manager"))
+(packages->manifest
+      (list pecus-emacs-next
+            hashcat
+            virt-manager))
 
 ;;; wsl-manifest.scm ends here

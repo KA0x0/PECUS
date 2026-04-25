@@ -6,7 +6,7 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("go"))
+(packages->manifest
+      (list go))
 
 ;;; go.scm ends here

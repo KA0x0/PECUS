@@ -6,10 +6,10 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("pecus-emacs-next"
-        "sshfs"
-        "virt-manager"
-        "wireguard-tools"))
+(packages->manifest
+      (list pecus-emacs-next
+            sshfs
+            virt-manager
+            wireguard-tools))
 
 ;;; laptop-manifest.scm ends here

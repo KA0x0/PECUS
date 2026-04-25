@@ -6,10 +6,10 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("qemu"
-        "rtorrent-xml-rpc@0.16.1"
-        "sshfs"
-        "tpm2-tss"))
+(packages->manifest
+      (list qemu
+            rtorrent-xml-rpc@0.16.1
+            sshfs
+            tpm2-tss))
 
 ;;; node1-manifest.scm ends here

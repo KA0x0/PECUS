@@ -6,9 +6,9 @@
 
 ;;; Code:
 
-(specifications->manifest
-  '    ("rsync"
-        "sshfs"
-        "wireguard-tools"))
+(packages->manifest
+      (list rsync
+            sshfs
+            wireguard-tools))
 
 ;;; c2-manifest.scm ends here

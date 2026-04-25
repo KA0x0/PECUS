@@ -6,14 +6,14 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("boost"
-        "guile-emacs"
-        "clang-toolchain"
-        "cmake"
-        "coreutils"
-        "git"
-        "libfaketime"
-        "ninja"))
+(packages->manifest
+      (list boost
+            guile-emacs
+            clang-toolchain
+            cmake
+            coreutils
+            git
+            libfaketime
+            ninja))
 
 ;;; base-manifest.scm ends here

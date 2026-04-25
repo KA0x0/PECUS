@@ -6,155 +6,155 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("adb"
-        "ascii"
-        "binutils"
-        "binwalk"
-        "buildah"
-        "clojure"
-        "clojure-ts-mode"
-        "diffoscope"
-        "difftastic" "emacs-difftastic"
-        "pecus-emacs-next"
-        "pecus-emacs-jwt"
-        "guile-emacs"
-        "emacs-autocrypt"
-        "emacs-bluetooth"
-        "emacs-buffer-env"
-        "emacs-calfw"
-        "emacs-cider"
-        "emacs-citar" "emacs-citar-denote"
-        "emacs-csv-mode"
-        "emacs-dape"
-        "emacs-denote" "emacs-consult-denote" "emacs-denote-org" "emacs-denote-sequence"
-        "emacs-dirvish"
-        "emacs-disproject"
-        "emacs-ednc"
-        "emacs-ement"
-        "emacs-emms" "opus-tools"
-        "emacs-filechooser"
-        "emacs-forge"
-        "emacs-graphql-mode"
-        "emacs-helpful"
-        "emacs-jinx"
-        "emacs-jq-mode"
-        "emacs-ligature"
-        "emacs-lpy"
-        "emacs-magit"
-        "emacs-markdown-mode"
-        "emacs-mentor"
-        "emacs-nerd-icons" "emacs-nerd-icons-completion" "emacs-nerd-icons-corfu" "emacs-nerd-icons-ibuffer"
-        "emacs-nov-el"
-        "emacs-org-caldav"
-        "emacs-org-contacts"
-        "emacs-org-ql"
-        "emacs-org-vcard"
-        "emacs-osm"
-        "emacs-polymode" "emacs-polymode-org"
-        "emacs-tempel" "emacs-eglot-tempel"
-        "emacs-verb"
-        "emacs-whisper-el"
-        "emacs-x509-mode"
-        "file"
-        "flac"
-        "flashrom"
-        "fontconfig"
-        "font-google-noto-emoji"
-        "font-iosevka-term-slab"
-        "font-liberation"
-        "font-wqy-zenhei"
-        "freerdp"
-        "gcc-toolchain"
-        "gdb"
-        "glibc"
-        "gnuradio"
-        "go" "emacs-go-mode"
-        "gopls"
-        "delve" ;; go debugger
-        "graphviz" "emacs-graphviz-dot-mode"
-        "guile-aws"
-        "inkscape"
-        "imagemagick"
-        "iw"
-        "java-eclipse-jdt-core"
-        "libfaketime"
-        "llvm"
-        "clang"
-        "lldb"
-        "lua" "lua-language-server"
-        "man-pages"
-        "mariadb"
-        "mit-krb5"
-        "monero"
-        "mpv" ;; "ffmpeg" propagated by "mpv"
-        "mu" "emacs-consult-mu"
-        "mysql"
-        "node-typescript"
-        "openjdk"
-        "openocd"
-        "openssh"
-        "openssl"
-        "openvpn"
-        "patch"
-        "patchelf"
-        "php"
-        "pinentry-emacs"
-        "poke" "emacs-poke-mode"
-        "pwntools"
-        "python-angr"
-        "python-debugpy"
-        "python-ipython"
-        "python-pycryptodomex"
-        "python-requests"
-        "python-scapy"
-        "qemu"
-        "rassumfrassum"
-        "retroarch" "libretro-dolphin-emu" "libretro-mupen64plus-nx"
-        "rizin"
-        "rr"
-        "rust" "emacs-rust-mode"
-        "rust-analyzer" ;; "rust-clippy"
-        "sage" "emacs-sage-shell-mode"
-        "samba"
-        "shellcheck"
-        "emacs-shellcheck-flymake"
-        "sigrok-cli"
-        "socat"
-        "sqlite"
-        "squashfs-tools"
-        "sshfs"
-        "steam-client"
-        "tiled"
-        "tree-sitter-asm"
-        "tree-sitter-c"
-        "tree-sitter-cpp"
-        "tree-sitter-clojure"
-        "tree-sitter-csv"
-        "tree-sitter-comment"
-        "tree-sitter-dockerfile"
-        "tree-sitter-gitcommit"
-        "tree-sitter-go"
-        "tree-sitter-gomod"
-        "tree-sitter-graphql"
-        "tree-sitter-javascript"
-        "tree-sitter-lua"
-        "tree-sitter-make"
-        "tree-sitter-org"
-        "tree-sitter-php"
-        "tree-sitter-powershell"
-        "tree-sitter-sql"
-        "tree-sitter-rust"
-        "tree-sitter-xml"
-        "unrar-free"
-        "upx"
-        "valkey"
-        "wget"
-        "whisper-cpp"
-        "wine64-staging"
-        "wireguard-tools"
-        "wireshark"
-        "yt-dlp"
-        "zbar"))
+(packages->manifest
+      (list adb
+            ascii
+            binutils
+            binwalk
+            buildah
+            clojure
+            clojure-ts-mode
+            diffoscope
+            difftastic emacs-difftastic
+            pecus-emacs-next
+            pecus-emacs-jwt
+            guile-emacs
+            emacs-autocrypt
+            emacs-bluetooth
+            emacs-buffer-env
+            emacs-calfw
+            emacs-cider
+            emacs-citar emacs-citar-denote
+            emacs-csv-mode
+            emacs-dape
+            emacs-denote emacs-consult-denote emacs-denote-org emacs-denote-sequence
+            emacs-dirvish
+            emacs-disproject
+            emacs-ednc
+            emacs-ement
+            emacs-emms" "opus-tools
+            emacs-filechooser
+            emacs-forge
+            emacs-graphql-mode
+            emacs-helpful
+            emacs-jinx
+            emacs-jq-mode
+            emacs-ligature
+            emacs-lpy
+            emacs-magit
+            emacs-markdown-mode
+            emacs-mentor
+            emacs-nerd-icons emacs-nerd-icons-completion emacs-nerd-icons-corfu emacs-nerd-icons-ibuffer
+            emacs-nov-el
+            emacs-org-caldav
+            emacs-org-contacts
+            emacs-org-ql
+            emacs-org-vcard
+            emacs-osm
+            emacs-polymode emacs-polymode-org
+            emacs-tempel emacs-eglot-tempel
+            emacs-verb
+            emacs-whisper-el
+            emacs-x509-mode
+            file
+            flac
+            flashrom
+            fontconfig
+            font-google-noto-emoji
+            font-iosevka-term-slab
+            font-liberation
+            font-wqy-zenhei
+            freerdp
+            gcc-toolchain
+            gdb
+            glibc
+            gnuradio
+            go emacs-go-mode
+            gopls
+            delve ;; go debugge
+            graphviz emacs-graphviz-dot-mode
+            guile-aws
+            inkscape
+            imagemagick
+            iw
+            java-eclipse-jdt-core
+            libfaketime
+            llvm
+            clang
+            lldb
+            lua lua-language-server
+            man-pages
+            mariadb
+            mit-krb5
+            monero
+            mpv ;; "ffmpeg" propagated by mpv
+            mu emacs-consult-mu
+            mysql
+            node-typescript
+            openjdk
+            openocd
+            openssh
+            openssl
+            openvpn
+            patch
+            patchelf
+            php
+            pinentry-emacs
+            poke emacs-poke-mode
+            pwntools
+            python-angr
+            python-debugpy
+            python-ipython
+            python-pycryptodomex
+            python-requests
+            python-scapy
+            qemu
+            rassumfrassum
+            retroarch libretro-dolphin-emu libretro-mupen64plus-nx
+            rizin
+            rr
+            rust" "emacs-rust-mode
+            rust-analyzer" ;; "rust-clippy
+            sage" "emacs-sage-shell-mode
+            samba
+            shellcheck
+            emacs-shellcheck-flymake
+            sigrok-cli
+            socat
+            sqlite
+            squashfs-tools
+            sshfs
+            steam-client
+            tiled
+            tree-sitter-asm
+            tree-sitter-c
+            tree-sitter-cpp
+            tree-sitter-clojure
+            tree-sitter-csv
+            tree-sitter-comment
+            tree-sitter-dockerfile
+            tree-sitter-gitcommit
+            tree-sitter-go
+            tree-sitter-gomod
+            tree-sitter-graphql
+            tree-sitter-javascript
+            tree-sitter-lua
+            tree-sitter-make
+            tree-sitter-org
+            tree-sitter-php
+            tree-sitter-powershell
+            tree-sitter-sql
+            tree-sitter-rust
+            tree-sitter-xml
+            unrar-free
+            upx
+            valkey
+            wget
+            whisper-cpp
+            wine64-staging
+            wireguard-tools
+            wireshark
+            yt-dlp
+            zbar))
 
 ;;; dev-phone-manifest.scm ends here

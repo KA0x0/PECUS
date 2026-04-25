@@ -6,7 +6,7 @@
 
 ;;; Code:
 
-(specifications->manifest
-      '("wireguard-tools"))
+(packages->manifest
+      (list wireguard-tools))
 
 ;;; network-manifest.scm ends here

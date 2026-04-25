@@ -75,10 +75,10 @@
          emacs-cape
          emacs-casual
          emacs-combobulate
-         emacs-consult" "emacs-consult-dir" "emacs-consult-eglot
+         emacs-consult emacs-consult-dir emacs-consult-eglot
          emacs-corfu
          emacs-doom-modeline
-         emacs-embark" "emacs-embark-consult
+         emacs-embark emacs-embark-consult
          emacs-eshell-syntax-highlighting
          emacs-exec-path-from-shell
          emacs-guix

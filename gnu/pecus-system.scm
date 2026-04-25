@@ -53,7 +53,7 @@
    (initrd-modules (append '("bcachefs") %base-initdr-modules))))
 
 (define-public %pecus-base-packages
-  (map specification->package
+  (specification->package
    (list age
          emacs-age
          awscli-2
@@ -166,6 +166,6 @@
               (openssh-configuration
                 (authorized-keys
                   ("ka0x" ,(local-file "/etc/ssh/authorized_keys.d/ka0x.pub")))))
-            (service system-log-service))))
+            (service system-log-service)))))
 
 ;;; pecus-system.scm ends here

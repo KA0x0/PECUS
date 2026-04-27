@@ -32,7 +32,7 @@
             emacs-disproject
             emacs-ednc
             emacs-ement
-            emacs-emms" "opus-tools
+            emacs-emms opus-tools
             emacs-filechooser
             emacs-forge
             emacs-graphql-mode
@@ -87,7 +87,7 @@
             mariadb
             mit-krb5
             monero
-            mpv ;; "ffmpeg" propagated by mpv
+            mpv ;; ffmpeg propagated by mpv
             mu emacs-consult-mu
             mysql
             node-typescript
@@ -113,9 +113,9 @@
             retroarch libretro-dolphin-emu libretro-mupen64plus-nx
             rizin
             rr
-            rust" "emacs-rust-mode
-            rust-analyzer" ;; "rust-clippy
-            sage" "emacs-sage-shell-mode
+            rust emacs-rust-mode
+            rust-analyzer ;; rust-clippy
+            sage emacs-sage-shell-mode
             samba
             shellcheck
             emacs-shellcheck-flymake

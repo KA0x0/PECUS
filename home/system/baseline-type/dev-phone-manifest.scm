@@ -157,7 +157,7 @@
             wireshark
             yt-dlp
             zbar
-            zig emacs-zig-mode
+            zig
             zls))
 
 ;;; dev-phone-manifest.scm ends here

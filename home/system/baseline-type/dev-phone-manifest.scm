@@ -150,7 +150,6 @@
             upx
             valkey
             wget
-            whisper-cpp emacs-whisper-el
             wine64-staging
             wireguard-tools
             wireshark

@@ -54,7 +54,6 @@
             emacs-polymode emacs-polymode-org
             emacs-tempel emacs-eglot-tempel
             emacs-verb
-            emacs-whisper-el
             emacs-x509-mode
             file
             flac
@@ -151,7 +150,7 @@
             upx
             valkey
             wget
-            whisper-cpp
+            whisper-cpp emacs-whisper-el
             wine64-staging
             wireguard-tools
             wireshark

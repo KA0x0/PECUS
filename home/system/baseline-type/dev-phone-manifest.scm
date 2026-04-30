@@ -146,6 +146,7 @@
             tree-sitter-sql
             tree-sitter-rust
             tree-sitter-xml
+            tree-sitter-zig
             unrar-free
             upx
             valkey

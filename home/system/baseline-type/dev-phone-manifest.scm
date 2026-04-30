@@ -155,6 +155,8 @@
             wireguard-tools
             wireshark
             yt-dlp
-            zbar))
+            zbar
+            zig emacs-zig-mode
+            zls))
 
 ;;; dev-phone-manifest.scm ends here

@@ -45,7 +45,7 @@
             emacs-markdown-mode
             emacs-mentor
             emacs-nerd-icons emacs-nerd-icons-completion emacs-nerd-icons-corfu emacs-nerd-icons-ibuffer
-            emacs-nov-el
+            emacs-nov
             emacs-org-caldav
             emacs-org-contacts
             emacs-org-ql

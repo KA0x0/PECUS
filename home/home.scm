@@ -44,19 +44,21 @@
                ("sudo"       . "sudo-rs")
                ("vdir"       . "emacsclient --create-frame --eval '(dired)' --no-wait"))
               (environment-variables
-               ("BROWSER"          . ,(file-append brave /bin/brave --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blocklist --enable-vulkan --enable-parallel-downloading"))
-               ("EDITOR"           . "$HOME/.guix-profile/bin/emacsclient --create-frame --no-wait")
-               ("ALTERNATE_EDITOR" . "/run/current-system/profile/bin/herd start emacs-daemon || emacsclient --create-frame --nowait --alternate-editor '$BACKUPEDITOR'")  ;; Emacs hardcoded var name
-               ("BACKUPEDITOR"     . ,(file-append guile-emacs /bin/emacs))
-               ("HISTCONTROL"      . "ignoreboth")
-               ("HISTFILESIZE"     . "4096")
-               ("HISTSIZE"         . "4096")
-               ("LESSCOLORIZER"    . ",(file-append tree-sitter /bin/tree-sitter highlight"))
-               ("PYTHONSTARTUP"    . "$HOME/config/python/pythonrc.py")
-               ("IPYTHONDIR"       . "$HOME/config/python/ipython")
-               ("PS1"              . ,(literal-string "\[\e[92m\]\u\[\e[0m\]@\[\e[94m\]\H\[\e[0m\]:\[\e[97m\]\w\[\e[0;5m\]\$\[\e[0m\] ")) ;; Add Error Code when =/ 0, Git status
-               ("PS2"              . ,(literal-string "\[\e[90;3m\]\t\[\e[0;37;5m\]\$\[\e[0m\] "))
-               ("TMOUT"            . "898"))
+               ("AZURE_CORE_COLLECT_TELEMETRY" . "0")
+               ("BROWSER"                      . ,(file-append brave /bin/brave --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blocklist --enable-vulkan --enable-parallel-downloading"))
+               ("EDITOR"                       . "$HOME/.guix-profile/bin/emacsclient --create-frame --no-wait")
+               ("ALTERNATE_EDITOR"             . "/run/current-system/profile/bin/herd start emacs-daemon || emacsclient --create-frame --nowait --alternate-editor '$BACKUPEDITOR'")  ;; Emacs hardcoded var name
+               ("BACKUPEDITOR"                 . ,(file-append guile-emacs /bin/emacs))
+               ("DO_NOT_TRACK"                 . "1")
+               ("HISTCONTROL"                  . "ignoreboth")
+               ("HISTFILESIZE"                 . "4096")
+               ("HISTSIZE"                     . "4096")
+               ("LESSCOLORIZER"                . ",(file-append tree-sitter /bin/tree-sitter highlight"))
+               ("PYTHONSTARTUP"                . "$HOME/config/python/pythonrc.py")
+               ("IPYTHONDIR"                   . "$HOME/config/python/ipython")
+               ("PS1"                          . ,(literal-string "\[\e[92m\]\u\[\e[0m\]@\[\e[94m\]\H\[\e[0m\]:\[\e[97m\]\w\[\e[0;5m\]\$\[\e[0m\] ")) ;; Add Error Code when =/ 0, Git status
+               ("PS2"                          . ,(literal-string "\[\e[90;3m\]\t\[\e[0;37;5m\]\$\[\e[0m\] "))
+               ("TMOUT"                        . "898"))
             (service home-dotfiles-service-type
               (home-dotfiles-configuration
                 (directories '("../gnu/home/services/config"))))

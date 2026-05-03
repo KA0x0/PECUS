@@ -52,8 +52,6 @@
                ("CDK_DISABLE_CLI_TELEMETRY"    . "1")
                ("DO_NOT_TRACK"                 . "1")
                ("HISTCONTROL"                  . "ignoreboth")
-               ("HISTFILESIZE"                 . "4096")
-               ("HISTSIZE"                     . "4096")
                ("LESSCOLORIZER"                . ",(file-append tree-sitter /bin/tree-sitter highlight"))
                ("PYTHONSTARTUP"                . "$HOME/config/python/pythonrc.py")
                ("IPYTHONDIR"                   . "$HOME/config/python/ipython")

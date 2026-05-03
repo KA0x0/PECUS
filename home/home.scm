@@ -64,6 +64,8 @@
             (service home-dotfiles-service-type
               (home-dotfiles-configuration
                 (directories '("../gnu/home/services/config"))))
-            (service unattended-upgrade-service-type))))))
+            (service home-unattended-upgrade-service-type
+              (service-type
+               (name 'home-unattended-upgrade))))))))
 
 ;;; home.scm ends here

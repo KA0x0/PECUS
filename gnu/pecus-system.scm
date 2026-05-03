@@ -166,6 +166,7 @@
               (openssh-configuration
                 (authorized-keys
                   ("ka0x" ,(local-file "/etc/ssh/authorized_keys.d/ka0x.pub")))))
-            (service system-log-service)))))
+            (service system-log-service)
+            (service unattended-upgrade-service-type)))))
 
 ;;; pecus-system.scm ends here

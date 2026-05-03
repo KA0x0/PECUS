@@ -49,7 +49,6 @@
                ("EDITOR"                       . "$HOME/.guix-profile/bin/emacsclient --create-frame --no-wait")
                ("ALTERNATE_EDITOR"             . "/run/current-system/profile/bin/herd start emacs-daemon || emacsclient --create-frame --nowait --alternate-editor '$BACKUPEDITOR'")  ;; Emacs hardcoded var name
                ("BACKUPEDITOR"                 . ,(file-append guile-emacs /bin/emacs))
-               ("CDK_DISABLE_CLI_TELEMETRY"    . "1")
                ("DO_NOT_TRACK"                 . "1")
                ("HISTCONTROL"                  . "ignoreboth")
                ("HISTFILESIZE"                 . "4096")

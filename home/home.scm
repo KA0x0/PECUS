@@ -50,6 +50,7 @@
                ("ALTERNATE_EDITOR"             . "/run/current-system/profile/bin/herd start emacs-daemon || emacsclient --create-frame --nowait --alternate-editor '$BACKUPEDITOR'")  ;; Emacs hardcoded var name
                ("BACKUPEDITOR"                 . ,(file-append guile-emacs /bin/emacs))
                ("DO_NOT_TRACK"                 . "1")
+               (GO_TELEMETRY_DIR"              . "/dev/null")
                ("HISTCONTROL"                  . "ignoreboth")
                ("HISTFILESIZE"                 . "4096")
                ("HISTSIZE"                     . "4096")

@@ -138,6 +138,7 @@
             tree-sitter-javascript
             tree-sitter-lua
             tree-sitter-make
+            tree-sitter-markdown
             tree-sitter-org
             tree-sitter-php
             tree-sitter-powershell

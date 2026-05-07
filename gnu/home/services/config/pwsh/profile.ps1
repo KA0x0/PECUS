@@ -1,5 +1,7 @@
 Import-Module
 
+$POWERSHELL_TELEMETRY_OPTOUT = true
+
 function prompt {
     $red = [\e[31m]
     $green = [\e[32m]

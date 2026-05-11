@@ -37,6 +37,7 @@
             emacs-forge
             emacs-graphql-mode
             emacs-helpful
+            emacs-jarchive
             emacs-jinx
             emacs-jq-mode
             emacs-ligature

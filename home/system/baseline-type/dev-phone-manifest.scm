@@ -117,7 +117,6 @@
             sage emacs-sage-shell-mode
             samba
             shellcheck
-            emacs-shellcheck-flymake
             sigrok-cli
             socat
             sqlite

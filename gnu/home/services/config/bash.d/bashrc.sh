@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 ### This file exist because some bash code can't be passed directly to bash-services yet
 ### Aliases, Environment Variable goes in home.scm
 ### Everything else goes here

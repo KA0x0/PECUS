@@ -12,7 +12,7 @@
             binutils
             binwalk
             buildah
-            clojure clojure-ts-mode
+            clojure emacs-clojure-ts-mode
             diffoscope
             difftastic emacs-difftastic
             pecus-emacs-next

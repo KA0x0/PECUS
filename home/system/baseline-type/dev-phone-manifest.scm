@@ -88,6 +88,7 @@
             mpv ;; ffmpeg propagated by mpv
             mu emacs-consult-mu
             mysql
+            nix
             node-typescript
             openjdk
             openocd

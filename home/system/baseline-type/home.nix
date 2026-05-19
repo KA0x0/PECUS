@@ -7,6 +7,7 @@
     doxx
     eca
     impacket
+    mitmproxy
     netexec
     powershell
     rizin

@@ -8,6 +8,7 @@
     eca
     impacket
     netexec
+    powershell
     rizin
     rizin-ghidra
     rz-pipe

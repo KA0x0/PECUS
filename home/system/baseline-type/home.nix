@@ -6,5 +6,6 @@
     eca
     impacket
     netexec
+    xleak
   ];
 }

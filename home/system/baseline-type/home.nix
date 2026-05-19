@@ -2,5 +2,6 @@
 
 {
   home.packages = with pkgs; [
+    python3.13-impacket
   ];
 }

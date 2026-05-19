@@ -6,6 +6,7 @@
     brave-origin
     doxx
     eca
+    ghidra
     impacket
     intermodal
     mitmproxy

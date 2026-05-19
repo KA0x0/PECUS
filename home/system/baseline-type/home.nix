@@ -2,6 +2,7 @@
 
 {
   home.packages = with pkgs; [
+    angr
     brave-origin
     doxx
     eca

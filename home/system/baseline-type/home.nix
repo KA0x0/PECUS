@@ -7,6 +7,7 @@
     doxx
     eca
     impacket
+    intermodal
     mitmproxy
     netexec
     powershell

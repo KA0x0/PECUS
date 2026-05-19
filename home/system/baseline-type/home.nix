@@ -6,6 +6,7 @@
     brave-origin
     doxx
     eca
+    frida
     ghidra
     impacket
     intermodal

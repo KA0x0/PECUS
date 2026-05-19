@@ -16,6 +16,7 @@
     rizin
     rizin-ghidra
     rz-pipe
+    syncplay
     xleak
   ];
 }

@@ -69,7 +69,7 @@
             gnuradio
             go emacs-go-mode
             gopls
-            delve ;; go debugge
+            delve ;; go debugger
             graphviz emacs-graphviz-dot-mode
             guile-aws
             inkscape

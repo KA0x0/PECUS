@@ -89,7 +89,6 @@
             mu emacs-consult-mu
             mysql
             nix
-            node-typescript
             openjdk
             openocd
             openssh

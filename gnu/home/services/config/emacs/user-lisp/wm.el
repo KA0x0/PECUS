@@ -10,6 +10,8 @@
 ;; Fonts
 (set-frame-font "iosevka 12" nil t)
 
+(require 'reka)
+(reka-enable)
 
 (provide 'pecus-wm)
 

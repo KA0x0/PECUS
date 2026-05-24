@@ -1,0 +1,9 @@
+set colored-completion-prefix on
+set colored-stats on
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set skip-completed-text on
+
+### BINDS
+bind '"\C-p": history-search-backward'
+bind '"\C-n": history-search-forward'

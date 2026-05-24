@@ -1,5 +1,8 @@
-#!/usr/bin/env bash
-set -euo pipefail
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+    *) return;;
+esac
 
 ### This file exist because some bash code can't be passed directly to bash-services yet
 ### Aliases, Environment Variable goes in home.scm

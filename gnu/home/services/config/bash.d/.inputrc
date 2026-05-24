@@ -7,6 +7,5 @@ set show-all-if-unmodified on
 set skip-completed-text on
 set visisble-stats on
 
-### BINDS
 bind '"\C-p": history-search-backward'
 bind '"\C-n": history-search-forward'

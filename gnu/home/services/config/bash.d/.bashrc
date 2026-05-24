@@ -8,7 +8,7 @@ esac
 ### Aliases, Environment Variable goes in home.scm
 ### Everything else goes here
  
-shopt -s autocd cdspell checkwinsize histappend hostcomplete progcomp_alias
+shopt -s autocd cdspell checkwinsize histappend progcomp_alias
 stty -ixon # Disable ctrl-s and ctrl-q
 
 uptime

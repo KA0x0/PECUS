@@ -1,8 +1,11 @@
 set colored-completion-prefix on
 set colored-stats on
 set completion-ignore-case on
+set mark-symlink-directories on
 set show-all-if-ambiguous on
+set show-all-if-unmodified on
 set skip-completed-text on
+set visisble-stats on
 
 ### BINDS
 bind '"\C-p": history-search-backward'

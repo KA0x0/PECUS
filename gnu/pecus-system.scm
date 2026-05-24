@@ -60,7 +60,6 @@
          bash
          bcachefs-linux-module
          bcachefs-tools
-         blesh
          bridge-utils
          bzip2
          coreutils

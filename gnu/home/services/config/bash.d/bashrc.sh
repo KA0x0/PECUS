@@ -11,7 +11,7 @@ set completion-ignore-case on
 set show-all-if-ambiguous on
 set skip-completed-text on
  
-shopt -s autocd cdspell checkwinsize cmdhist expand_aliases histappend
+shopt -s autocd cdspell checkwinsize cmdhist expand_aliases histappend hostcomplete progcomp_alias
 stty -ixon # Disable ctrl-s and ctrl-q
 
 ### BINDS

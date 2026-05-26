@@ -146,7 +146,7 @@
 (define-public pecus-issue
      (service login-service-type
                (login-configuration
-                (issue (plain-file "issue" "\r \U")))))
+                (issue (plain-file "issue" "\r\n\U\n")))))
 
 (define-public pecus-motd
      (service login-service-type

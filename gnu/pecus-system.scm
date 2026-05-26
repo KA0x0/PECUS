@@ -143,6 +143,11 @@
          xz
          zstd)))
 
+(define-public pecus-issue
+     (service login-service-type
+               (login-configuration
+                (issue (plain-file "issue" "\r \U")))))
+
 (define-public pecus-motd
      (service login-service-type
                (login-configuration
@@ -158,6 +163,7 @@
   (append
       (list (service pecus-dns)
             (service emacs-server-service-type
+            (service login-service-type pecus-issue)
             (service login-service-type pecus-motd)
             (service nftables-service-type)
             (service ntp-service-type)

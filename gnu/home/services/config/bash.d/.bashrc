@@ -15,5 +15,3 @@ fi
  
 shopt -s autocd cdspell dirspell histappend progcomp_alias
 stty -ixon # Disable ctrl-s and ctrl-q
-
-uptime

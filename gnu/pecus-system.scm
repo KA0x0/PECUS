@@ -144,19 +144,19 @@
          xz
          zstd)))
 
-(define-public pecus-issue
+(define pecus-issue
      (service login-service-type
                (login-configuration
                 (issue (plain-file "issue" "\r\n\U\n")))))
 
-(define-public pecus-motd
+(define pecus-motd
      (service login-service-type
                (login-configuration
                 (motd (plain-file "motd" "\
                   UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED.\n
                   All activities performed on this device are logged and monitored.\n\n")))))
 
-(define-public hardcoded-editor
+(define hardcoded-editor
   (simple-service
    'hardcoded-editor
    activation-service-type

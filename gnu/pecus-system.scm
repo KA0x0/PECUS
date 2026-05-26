@@ -162,7 +162,7 @@
    activation-service-type
    #~(begin
        (symlink
-        (string-append #$emacs "/bin/emacsclient")
+        ,(file-append "/bin/emacsclient --create-frame --no-wait")
         "/usr/bin/vi"))))
 
 (define-public %pecus-base-services

@@ -18,6 +18,7 @@
 ;;; Code:
 
 (define-module (gnu pecus-system)
+  #:use-module (guix build utils)
   #:use-module (gnu packages admin)
   #:use-module (gnu packages bash)
   #:use-module (gnu packages certs)
@@ -155,7 +156,14 @@
                   UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED.\n
                   All activities performed on this device are logged and monitored.\n\n")))))
 
-(define-public hardcoded-editor)
+(define-public hardcoded-editor
+  (simple-service
+   'hardcoded-editor
+   activation-service-type
+   #~(begin
+       (symlink
+        (string-append #$emacs "/bin/emacsclient")
+        "/usr/bin/vi"))))
 
 (define-public %pecus-base-services
   (append

@@ -59,6 +59,7 @@
          emacs-age
          awscli-2
          bash
+         bash-completion emacs-bash-completion
          bcachefs-linux-module
          bcachefs-tools
          bridge-utils

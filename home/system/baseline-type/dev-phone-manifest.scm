@@ -115,7 +115,6 @@
             rust-analyzer ;; rust-clippy
             sage emacs-sage-shell-mode
             samba
-            shellcheck
             sigrok-cli
             socat
             sqlite

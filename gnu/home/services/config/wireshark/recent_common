@@ -1,22 +1,7 @@
-# Welcome page sidebar Learn section visible.
-# true or false (case-insensitive).
 gui.welcome_page.sidebar.learn_visible: false
-
-# Welcome page sidebar Tips section visible.
-# true or false (case-insensitive).
+gui.welcome_page.sidebar.tips_events: false
+gui.welcome_page.sidebar.tips_interval: 0
+gui.welcome_page.sidebar.tips_sponsorship: false
+gui.welcome_page.sidebar.tips_tips: false
 gui.welcome_page.sidebar.tips_visible: false
 
-# Welcome page sidebar Tips event slides.
-# true or false (case-insensitive).
-gui.welcome_page.sidebar.tips_events: false
-
-# Welcome page sidebar Tips sponsorship slides.
-# true or false (case-insensitive).
-gui.welcome_page.sidebar.tips_sponsorship: false
-
-# Welcome page sidebar Tips tip-of-the-day slides.
-# true or false (case-insensitive).
-gui.welcome_page.sidebar.tips_tips: false
-
-# Welcome page sidebar Tips slide auto-advance interval in seconds.
-gui.welcome_page.sidebar.tips_interval: 0

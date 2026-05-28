@@ -163,7 +163,7 @@
   (simple-service
    'hardcoded-editor
    special-files-service-type
-   `(("usr/bin/vi"
+   `(("/usr/bin/vi"
       ,(file-append emacs "/bin/emacsclient")))))
 
 (define-public %pecus-base-services

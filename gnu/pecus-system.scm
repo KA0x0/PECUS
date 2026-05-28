@@ -159,7 +159,7 @@
                   UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED.\n
                   All activities performed on this device are logged and monitored.\n\n")))))
 
-(define hardcoded-editor
+(define hardcoded-editor ;; sudoedit opens emacsclient
   (simple-service
    'hardcoded-editor
    special-files-service-type

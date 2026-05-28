@@ -18,7 +18,6 @@
 ;;; Code:
 
 (define-module (gnu pecus-system)
-  #:use-module (guix build utils)
   #:use-module (gnu packages admin)
   #:use-module (gnu packages bash)
   #:use-module (gnu packages certs)
@@ -163,11 +162,9 @@
 (define hardcoded-editor
   (simple-service
    'hardcoded-editor
-   activation-service-type
-   #~(begin
-       (symlink
-        ,(file-append "/bin/emacsclient --create-frame --no-wait")
-        "/usr/bin/vi"))))
+   special-files-service-type
+   `(("usr/bin/vi"
+      ,(file-append emacs "/bin/emacsclient")))))
 
 (define-public %pecus-base-services
   (append

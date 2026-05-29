@@ -48,7 +48,7 @@
 (define-public %pecus-base-operating-system
   (operating-system
    (locale "en_US.utf8")
-   (timezone "Etc/UTC")
+   (timezone "etc/UTC")
    (keyboard-layout (keyboard-layout "us"))
    (initrd-modules (append '("bcachefs") %base-initdr-modules))))
 

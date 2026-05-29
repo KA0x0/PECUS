@@ -28,7 +28,7 @@
                ("edit"       . "emacsclient --create-frame --no-wait")
                ("emacs"      . "emacsclient --create-frame --no-wait")
                ("grep"       . "grep --color=auto")
-               ("ll"         . "ls --all --classify --color=auto --dired --human-readable --indicator-style -l -v")
+               ("ll"         . "ls --all --color=auto --dired --human-readable --indicator-style -l -v")
                ("ls"         . "ls --almost-all --classify --color=auto --dired --human-readable --indicator-style -v")
                ("logout"     . "emacsclient --eval '(server-delete-client)' & logout")
                ("mkdir"      . "mkdir --parents --verbose")

@@ -15,6 +15,5 @@
     rizin-ghidra
     rz-pipe
     sq
-    syncplay
   ];
 }

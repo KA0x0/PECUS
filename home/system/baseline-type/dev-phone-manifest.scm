@@ -121,6 +121,7 @@
             squashfs-tools
             sshfs
             steam-client
+            syncplay
             tiled
             tree-sitter-asm
             tree-sitter-c

@@ -49,7 +49,7 @@
   (operating-system
    (locale "en_US.utf8")
    (timezone "Etc/UTC")
-   (keyboard-layout (keyboard-layout "us" "ru"))
+   (keyboard-layout (keyboard-layout "us"um))
    (initrd-modules (append '("bcachefs") %base-initdr-modules))))
 
 (define-public %pecus-base-packages

@@ -27,11 +27,8 @@
  ;; already links to the manual, if a function is referenced there.
  (global-set-key (kbd "C-h F") #'helpful-function))
 
-(defun pwsh-term (orig-fun &rest args)
-  (apply orig-fun "pwsh" '("-NoLogo") args))
-
-(advice-add 'term :around #'pwsh-term)
-(advice-add 'ansi-term :around #'pwsh-term)
+(setopt explicit-shell-file-name "pwsh")
+(setopt explicit-pwsh-args '("-NoLogo"))
 
 (use-package graphviz-dot-mode)
 

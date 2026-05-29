@@ -35,13 +35,10 @@
   #:use-module (gnu packages polkit)
   #:use-module (gnu packages rsync)
   #:use-module (gnu packages python)
-  #:use-module (gnu packages python-web)
-  #:use-module (gnu packages python-xyz)
   #:use-module (gnu packages texinfo)
   #:use-module (gnu packages tree-sitter)
   #:use-module (gnu packages version-control)
   #:use-module (gnu packages virtualization)
-  #:use-module (gnu packages wget)
   #:use-module (shepherd service system-log)
   #:use-module (shepherd service timer))
 

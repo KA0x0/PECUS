@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
     angr
     brave-origin
-    doxx
     eca
     frida
     ghidra
@@ -15,7 +14,7 @@
     powershell
     rizin-ghidra
     rz-pipe
+    sq
     syncplay
-    xleak
   ];
 }

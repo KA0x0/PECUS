@@ -51,6 +51,7 @@
             emacs-org-ql
             emacs-org-vcard
             emacs-osm
+            emacs-ox-pandoc
             emacs-polymode emacs-polymode-org
             emacs-tempel emacs-eglot-tempel
             emacs-verb
@@ -95,7 +96,7 @@
             openssh
             openssl
             openvpn
-            pandoc
+            pandoc emacs-pandoc-mode
             patch
             patchelf
             php

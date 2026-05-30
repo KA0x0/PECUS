@@ -14,6 +14,5 @@
     powershell
     rizin-ghidra
     rz-pipe
-    sq
   ];
 }

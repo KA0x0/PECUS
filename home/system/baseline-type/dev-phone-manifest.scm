@@ -70,6 +70,7 @@
             go emacs-go-mode
             gopls
             delve ;; go debugger
+            duckdb
             graphviz emacs-graphviz-dot-mode
             guile-aws
             inkscape

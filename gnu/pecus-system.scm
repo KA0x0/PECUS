@@ -144,17 +144,17 @@
 (define pecus-issue
      (service login-service-type
                (login-configuration
-                (issue (plain-file "issue" "
-                \n - \r - \4
-                \U
-                ")))))
+                (issue
+                 (plain-file "issue"
+                             "\\n - \\r - \\4\n\\U\n")))))
 
 (define pecus-motd
      (service login-service-type
                (login-configuration
-                (motd (plain-file "motd" "\
-                  UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED.\n
-                  All activities performed on this device are logged and monitored.\n\n")))))
+                (motd
+                  (plain-file "motd" "\
+                              UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED.\n
+                              All activities performed on this device are logged and monitored.\n\n")))))
 
 (define hardcoded-editor ;; sudoedit opens emacsclient
   (simple-service

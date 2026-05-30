@@ -15,7 +15,7 @@
             clojure emacs-clojure-ts-mode
             diffoscope
             difftastic emacs-difftastic
-            duckdb
+            duckdb python-duckdb
             pecus-emacs-next
             pecus-emacs-jwt
             guile-emacs

@@ -95,6 +95,7 @@
             openssh
             openssl
             openvpn
+            pandoc
             patch
             patchelf
             php

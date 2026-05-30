@@ -15,6 +15,7 @@
             clojure emacs-clojure-ts-mode
             diffoscope
             difftastic emacs-difftastic
+            duckdb
             pecus-emacs-next
             pecus-emacs-jwt
             guile-emacs
@@ -70,7 +71,6 @@
             go emacs-go-mode
             gopls
             delve ;; go debugger
-            duckdb
             graphviz emacs-graphviz-dot-mode
             guile-aws
             inkscape

@@ -85,7 +85,6 @@
             man-pages
             mariadb
             mit-krb5
-            monero
             mpv ;; ffmpeg propagated by mpv
             mu emacs-consult-mu
             mysql

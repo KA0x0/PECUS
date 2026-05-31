@@ -144,8 +144,8 @@
             tree-sitter-org
             tree-sitter-php
             tree-sitter-powershell
-            tree-sitter-sql
             tree-sitter-rust
+            tree-sitter-sql
             tree-sitter-xml
             tree-sitter-zig
             unrar-free

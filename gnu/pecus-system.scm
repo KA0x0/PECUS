@@ -95,6 +95,7 @@
          git
          gnupg
          grep
+         groff
          emacs-flymake-guile
          guile-next
          guile-ares-rs

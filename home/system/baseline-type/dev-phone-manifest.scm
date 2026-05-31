@@ -34,7 +34,6 @@
             emacs-emms opus-tools
             emacs-filechooser
             emacs-forge
-            emacs-graphql-mode
             emacs-helpful
             emacs-jarchive
             emacs-jinx

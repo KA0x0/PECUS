@@ -137,6 +137,7 @@
             tree-sitter-go
             tree-sitter-gomod
             tree-sitter-graphql
+            tree-sitter-haskell
             tree-sitter-javascript
             tree-sitter-lua
             tree-sitter-make

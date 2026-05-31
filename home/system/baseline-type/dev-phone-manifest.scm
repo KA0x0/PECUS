@@ -25,7 +25,6 @@
             emacs-calfw
             emacs-cider
             emacs-citar emacs-citar-denote
-            emacs-csv-mode
             emacs-dape
             emacs-denote emacs-consult-denote emacs-denote-org emacs-denote-sequence
             emacs-dirvish

@@ -74,8 +74,8 @@
         dbus
         emacs-with-native-comp-no-x
         iwd
-        picom
         pipewire
+        waypipe
         xorg-server-xwayland)
       %pecus-base-packages))
   (services

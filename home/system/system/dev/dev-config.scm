@@ -92,6 +92,7 @@
         pipewire
         river
         spice-vdagent
+        waypipe
         xdg-desktop-portal-wlr
         xf86-video-amdgpu)
       %pecus-base-packages))

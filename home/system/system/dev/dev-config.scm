@@ -90,7 +90,9 @@
         iwd
         mailutils
         pipewire
+        river
         spice-vdagent
+        xdg-desktop-portal-wlr
         xf86-video-amdgpu)
       %pecus-base-packages))
   (services

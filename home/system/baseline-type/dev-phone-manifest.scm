@@ -71,6 +71,7 @@
             gopls
             delve ;; go debugger
             graphviz emacs-graphviz-dot-mode
+            grim
             guile-aws
             inkscape
             imagemagick
@@ -115,7 +116,9 @@
             rust-analyzer ;; rust-clippy
             sage emacs-sage-shell-mode
             samba
+            scdoc
             sigrok-cli
+            slurp
             socat
             sqlite
             squashfs-tools

@@ -77,7 +77,6 @@
          emacs-doom-modeline
          emacs-embark emacs-embark-consult
          emacs-eshell-syntax-highlighting
-         emacs-exec-path-from-shell
          emacs-guix
          emacs-inheritenv
          emacs-lispy
@@ -167,7 +166,7 @@
 (define-public %pecus-base-services
   (append
       (list (service pecus-dns)
-            (service emacs-server-service-type
+            (service emacs-server-service-type)
             (service hardcoded-editor)
             (service login-service-type pecus-issue)
             (service login-service-type pecus-motd)

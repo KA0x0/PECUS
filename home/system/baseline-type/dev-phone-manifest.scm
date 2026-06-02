@@ -111,7 +111,7 @@
             retroarch libretro-dolphin-emu libretro-mupen64plus-nx
             rizin
             rr
-            rust emacs-rust-mode
+            rust
             rust-analyzer ;; rust-clippy
             sage emacs-sage-shell-mode
             samba

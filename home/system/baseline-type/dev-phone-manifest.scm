@@ -66,7 +66,7 @@
             gdb
             glibc
             gnuradio
-            go emacs-go-mode
+            go
             gopls
             delve ;; go debugger
             graphviz emacs-graphviz-dot-mode

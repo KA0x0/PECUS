@@ -29,7 +29,7 @@
   #:use-module (gnu packages gnupg)
   #:use-module (gnu packages guile)
   #:use-module (gnu packages guile-xyz)
-  #:use-module (gnu packages go-crypto)
+  #:use-module (gnu packages golang-crypto)
   #:use-module (gnu packages less)
   #:use-module (gnu packages man)
   #:use-module (gnu packages ncurses)

@@ -30,6 +30,7 @@
   #:use-module (gnu packages guile)
   #:use-module (gnu packages guile-xyz)
   #:use-module (gnu packages golang-crypto)
+  #:use-module (gnu packages groff)
   #:use-module (gnu packages less)
   #:use-module (gnu packages man)
   #:use-module (gnu packages ncurses)

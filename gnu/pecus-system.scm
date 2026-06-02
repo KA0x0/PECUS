@@ -88,7 +88,6 @@
          emacs-vertico
          emacs-vundo
          emacs-with-editor
-         emacs-yaml-pro
          eudev
          findutils
          gawk

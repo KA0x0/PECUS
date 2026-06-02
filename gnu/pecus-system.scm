@@ -166,7 +166,6 @@
 (define-public %pecus-base-services
   (append
       (list (service pecus-dns)
-            (service emacs-server-service-type)
             (service hardcoded-editor)
             (service login-service-type pecus-issue)
             (service login-service-type pecus-motd)

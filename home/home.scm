@@ -18,7 +18,8 @@
 
 (home-environment
   (services
-    (list (service home-bash-service-type
+    (list (service emacs-server-service-type)
+          (service home-bash-service-type
             (home-bash-configuration
               (aliases ;; use "\" to escape aliases.
                ("cp"         . "rsync --archive --human-readable --info=progress2 --progress --verbose")

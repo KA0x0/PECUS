@@ -51,8 +51,7 @@
 
 (define-public %pecus-base-packages
   (specification->package
-   (list age
-         emacs-age
+   (list age emacs-age
          awscli-2
          bash
          bash-completion emacs-bash-completion

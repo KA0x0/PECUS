@@ -21,7 +21,6 @@
             guile-emacs
             emacs-autocrypt
             emacs-bluetooth
-            emacs-buffer-env
             emacs-calfw
             emacs-cider
             emacs-citar emacs-citar-denote
@@ -35,6 +34,7 @@
             emacs-filechooser
             emacs-forge
             emacs-helpful
+            emacs-inheritenv
             emacs-jarchive
             emacs-jinx
             emacs-jq-mode

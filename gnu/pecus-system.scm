@@ -68,6 +68,7 @@
          emacs-ace-window
          emacs-arei
          emacs-avy
+         emacs-buffer-env
          emacs-casual-avy
          emacs-cape
          emacs-casual
@@ -78,7 +79,6 @@
          emacs-embark emacs-embark-consult
          emacs-eshell-syntax-highlighting
          emacs-guix
-         emacs-inheritenv
          emacs-lispy
          emacs-logview
          emacs-marginalia

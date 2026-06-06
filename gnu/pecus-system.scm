@@ -103,6 +103,7 @@
          guile-fibers-next
          guile-gcrypt
          guile-git
+         guile-irregex
          guile-json
          guile-lsp-server
          guile-readline

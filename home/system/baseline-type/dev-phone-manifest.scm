@@ -33,7 +33,6 @@
             emacs-emms opus-tools
             emacs-filechooser
             emacs-forge
-            emacs-helpful
             emacs-inheritenv
             emacs-jarchive
             emacs-jinx

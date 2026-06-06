@@ -122,7 +122,6 @@
             sshfs
             steam-client
             syncplay
-            texlive-digestif
             tiled
             tree-sitter-asm
             tree-sitter-c

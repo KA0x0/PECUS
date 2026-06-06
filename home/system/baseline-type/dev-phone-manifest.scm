@@ -39,7 +39,6 @@
             emacs-jinx
             emacs-jq-mode ;; for ob-jq.el
             emacs-ligature
-            emacs-lpy
             emacs-magit
             emacs-mentor
             emacs-nerd-icons emacs-nerd-icons-completion emacs-nerd-icons-corfu emacs-nerd-icons-ibuffer

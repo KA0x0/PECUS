@@ -1,9 +1,9 @@
-;;; ecma.el --- Provide *script related features -*- lexical-binding: t; -*-
+;;; ecma.el --- Provide ecma related features -*- lexical-binding: t; -*-
 
 ;;; Commentary: For everything javascript, typescript related.
 
 ;;; Code:
 
-(provide 'pecus-script)
+(provide 'pecus-ecma)
 
-;;; script.el ends here
+;;; ecma.el ends here

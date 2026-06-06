@@ -126,6 +126,7 @@
          polkit
          python-debug-sans-pip-wrapper
          ruff
+         python-nrepl
          rsync
          sed
          shadow

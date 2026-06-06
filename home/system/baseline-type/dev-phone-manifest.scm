@@ -37,7 +37,6 @@
             emacs-inheritenv
             emacs-jarchive
             emacs-jinx
-            emacs-jq-mode
             emacs-ligature
             emacs-lpy
             emacs-magit

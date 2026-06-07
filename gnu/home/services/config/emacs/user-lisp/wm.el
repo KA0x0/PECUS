@@ -13,6 +13,7 @@
 (require 'reka)
 (reka-enable)
 
+
 (provide 'pecus-wm)
 
 ;;; wm.el ends here

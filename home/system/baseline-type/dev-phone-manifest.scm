@@ -26,7 +26,6 @@
             emacs-citar emacs-citar-denote
             emacs-dape
             emacs-denote emacs-consult-denote emacs-denote-org emacs-denote-sequence
-            emacs-dirvish
             emacs-disproject
             emacs-ednc
             emacs-ement

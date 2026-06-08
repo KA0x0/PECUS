@@ -14,7 +14,7 @@
             buildah
             clojure emacs-cider emacs-clojure-ts-mode
             diffoscope
-            difftastic emacs-difftastic
+            difftastic emacs-difftastic emacs-magit-difftastic
             duckdb
             pecus-emacs-next
             pecus-emacs-jwt

@@ -100,8 +100,8 @@
                     (list
                       (oci-container-configuration
                         (name "archisteamfarm")
-                        (network "macvlan-internal")
                         (image "docker.io/justarchi/archisteamfarm:released")
+                        (network "macvlan-internal")
                         (volumes
                          '((/mnt/storage/config/archisteamfarm/config:/app/config))))))))
         %base-services

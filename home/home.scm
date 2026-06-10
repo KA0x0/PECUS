@@ -53,14 +53,14 @@
                ("DO_NOT_TRACK"                 . "1")
                ("HISTCONTROL"                  . "ignoreboth")
                ("LESSCOLORIZER"                . ",(file-append tree-sitter /bin/tree-sitter highlight"))
-               ("PYTHONSTARTUP"                . "$HOME/config/python/pythonrc.py")
-               ("IPYTHONDIR"                   . "$HOME/config/python/ipython")
+               ("PYTHONSTARTUP"                . "$HOME/.config/python/pythonrc.py")
+               ("IPYTHONDIR"                   . "$HOME/.config/python/ipython")
                ("PS1"                          . ,(literal-string "\[\e[92m\]\u\[\e[0m\]@\[\e[94m\]\H\[\e[0m\]:\[\e[97m\]\w\[\e[0;5m\]\$\[\e[0m\] ")) ;; Add Error Code when =/ 0, Git status
                ("PS2"                          . ,(literal-string "\[\e[90;3m\]\t\[\e[0;37;5m\]\$\[\e[0m\] "))
                ("TMOUT"                        . "898"))
             (service home-dotfiles-service-type
               (home-dotfiles-configuration
-                (directories '("../gnu/home/services/config"))))
+                (directories '("../gnu/home/services/.config"))))
             (service home-unattended-upgrade-service-type
               (service-type
                (name 'home-unattended-upgrade))))))))

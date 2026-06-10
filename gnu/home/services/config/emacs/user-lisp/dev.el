@@ -9,6 +9,8 @@
 (setopt explicit-shell-file-name "pwsh")
 (setopt explicit-pwsh-args '("-NoLogo"))
 
+(use-package protobuf-mode)
+
 (use-package graphviz-dot-mode)
 
 

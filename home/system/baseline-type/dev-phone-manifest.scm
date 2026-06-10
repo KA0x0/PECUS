@@ -95,6 +95,7 @@
             php
             pinentry-emacs
             poke emacs-poke-mode
+            protobuf
             pwntools
             python-angr
             python-debugpy

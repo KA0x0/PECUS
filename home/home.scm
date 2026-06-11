@@ -34,7 +34,6 @@
                ("logout"     . "emacsclient --eval '(server-delete-client)' & logout")
                ("mkdir"      . "mkdir --parents --verbose")
                ("mv"         . "rsync --archive --human-readable --info=progress2 --progress --remove-source-files --verbose")
-               ("nc"         . "socat -,rawer,escape=0x1d tcp:$@")
                ("patch"      . "patch --backup --verbose")
                ("ping"       . "ping -v")
                ("ping6"      . "ping6 -v")

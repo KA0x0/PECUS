@@ -43,7 +43,6 @@
                ("sudo"       . "sudo-rs")
                ("vdir"       . "emacsclient --create-frame --eval '(dired)' --no-wait"))
               (environment-variables
-               ("AZURE_CORE_COLLECT_TELEMETRY" . "0")
                ("BROWSER"                      . ,(file-append brave /bin/brave --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blocklist --enable-vulkan --enable-parallel-downloading"))
                ("EDITOR"                       . "$HOME/.guix-profile/bin/emacsclient --create-frame --no-wait")
                ("ALTERNATE_EDITOR"             . "/run/current-system/profile/bin/herd start emacs-daemon || emacsclient --create-frame --nowait --alternate-editor '$BACKUPEDITOR'")  ;; Emacs hardcoded var name

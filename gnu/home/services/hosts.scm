@@ -51,7 +51,7 @@
                                 "tiktok.com") ;; ProxiTok 
                           (host ""
                                 "wikipedia.com") ;; wikiless
-                          (hosts "109.107.190.203" ;; nitter.privacyredirect.com
+                          (host "109.107.190.203" ;; nitter.privacyredirect.com
                                 "x.com"
                                 "twitter.com") ;; Nitter
                           (host "200.14.81.226" ;; inv.nadeko.net

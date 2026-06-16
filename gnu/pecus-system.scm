@@ -94,7 +94,7 @@
          gnupg
          grep
          groff
-         guile-next guile-lsp-server
+         guile-next 
          guile-ares-rs
          guile-bytestructures
          guile-colorized
@@ -106,6 +106,7 @@
          guile-lsp-server
          guile-readline
          guile-ssh
+         guile-ts
          gzip
          iproute
          jq

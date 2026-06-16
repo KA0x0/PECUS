@@ -94,7 +94,6 @@
          gnupg
          grep
          groff
-         emacs-flymake-guile
          guile-next
          guile-ares-rs
          guile-bytestructures

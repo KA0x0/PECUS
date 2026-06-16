@@ -10,9 +10,6 @@
 (use-package lispy
   :hook (emacs-lisp-mode . lispy-mode))
 
-(use-package flymake-guile
-  :hook (scheme-mode-hook . flymake-guile))
-
 
 (provide 'pecus-lisp)
 

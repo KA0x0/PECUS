@@ -6,7 +6,6 @@
 
 (use-package eglot)
 (use-package geiser)
-(use-package prism)
 
 (use-package lispy
   :hook (emacs-lisp-mode . lispy-mode))

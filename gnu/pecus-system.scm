@@ -84,7 +84,6 @@
          emacs-logview
          emacs-marginalia
          emacs-orderless
-         emacs-prism
          emacs-vertico
          emacs-vundo
          emacs-with-editor

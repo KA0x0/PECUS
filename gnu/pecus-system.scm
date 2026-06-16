@@ -94,7 +94,7 @@
          gnupg
          grep
          groff
-         guile-next
+         guile-next guile-lsp-server
          guile-ares-rs
          guile-bytestructures
          guile-colorized

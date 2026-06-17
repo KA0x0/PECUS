@@ -106,7 +106,6 @@
          guile-lsp-server
          guile-readline
          guile-ssh
-         guile-ts
          gzip
          iproute
          jq

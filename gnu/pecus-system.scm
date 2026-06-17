@@ -135,6 +135,7 @@
          tree-sitter-elisp
          tree-sitter-json
          tree-sitter-python
+         tree-sitter-scheme
          tree-sitter-yaml
          util-linux+udev
          which

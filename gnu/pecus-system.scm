@@ -70,9 +70,8 @@
          emacs-arei
          emacs-avy
          emacs-buffer-env
-         emacs-casual-avy
          emacs-cape
-         emacs-casual
+         emacs-casual emacs-casual-avy
          emacs-combobulate
          emacs-consult
          emacs-corfu

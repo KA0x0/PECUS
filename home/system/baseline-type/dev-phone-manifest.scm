@@ -23,7 +23,6 @@
             emacs-bluetooth
             emacs-calfw
             emacs-citar emacs-citar-denote
-            emacs-consult-lsp
             emacs-dape
             emacs-denote emacs-consult-denote emacs-denote-org emacs-denote-sequence
             emacs-disproject

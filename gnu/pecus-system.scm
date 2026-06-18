@@ -74,7 +74,7 @@
          emacs-cape
          emacs-casual
          emacs-combobulate
-         emacs-consult emacs-consult-dir emacs-consult-eglot
+         emacs-consult emacs-consult-eglot
          emacs-corfu
          emacs-doom-modeline
          emacs-embark emacs-embark-consult

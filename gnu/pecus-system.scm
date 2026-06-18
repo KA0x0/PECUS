@@ -71,7 +71,7 @@
          emacs-avy
          emacs-buffer-env
          emacs-cape
-         emacs-casual emacs-casual-avy
+         emacs-casual
          emacs-combobulate
          emacs-consult
          emacs-corfu

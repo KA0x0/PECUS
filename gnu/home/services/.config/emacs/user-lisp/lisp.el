@@ -5,10 +5,6 @@
 ;;; Code:
 
 (use-package eglot)
-(use-package geiser)
-
-(use-package lispy
-  :hook (emacs-lisp-mode . lispy-mode))
 
 
 (provide 'pecus-lisp)

@@ -79,7 +79,6 @@
          emacs-embark emacs-embark-consult
          emacs-eshell-syntax-highlighting
          emacs-guix
-         emacs-lispy
          emacs-logview
          emacs-marginalia
          emacs-orderless

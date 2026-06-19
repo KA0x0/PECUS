@@ -4,10 +4,6 @@
 
 ;;; Code:
 
-(use-package json-mode)
-
-(use-package yaml-mode)
-
 
 (provide 'pecus-markup)
 

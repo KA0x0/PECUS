@@ -76,7 +76,7 @@
          emacs-consult
          emacs-corfu
          emacs-doom-modeline
-         emacs-embark
+         emacs-embark ;; emacs-embark-consult
          emacs-eshell-syntax-highlighting
          emacs-guix
          emacs-logview

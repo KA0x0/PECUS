@@ -2,7 +2,7 @@
 
 {
   home.packages = with pkgs; [
-    brave-origin
+    brave
     eca
     frida
     ghidra

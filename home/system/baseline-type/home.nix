@@ -2,6 +2,7 @@
 
 {
   home.packages = with pkgs; [
+    bloodhound-ce
     brave-origin
     eca
     frida

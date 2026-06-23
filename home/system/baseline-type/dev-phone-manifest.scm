@@ -85,7 +85,6 @@
             mysql
             nix
             openjdk
-            openocd
             openssh
             openssl
             openvpn

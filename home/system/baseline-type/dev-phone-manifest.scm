@@ -128,11 +128,13 @@
             tree-sitter-csv
             tree-sitter-comment
             tree-sitter-dockerfile
+            tree-sitter-dot
             tree-sitter-gitcommit
             tree-sitter-go
             tree-sitter-gomod
             tree-sitter-graphql
             tree-sitter-haskell
+            tree-sitter-html
             tree-sitter-javascript
             tree-sitter-lua
             tree-sitter-make
@@ -140,8 +142,10 @@
             tree-sitter-org
             tree-sitter-php
             tree-sitter-powershell
+            tree-sitter-proto
             tree-sitter-rust
             tree-sitter-sql
+            tree-sitter-toml
             tree-sitter-typescript
             tree-sitter-xml
             tree-sitter-zig

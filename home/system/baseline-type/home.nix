@@ -19,6 +19,7 @@
     rz-pipe
     sleuthkit
     sqruff
+    tombi
     ty
     watchman
     waydroid

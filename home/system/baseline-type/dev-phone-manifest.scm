@@ -142,6 +142,7 @@
             tree-sitter-powershell
             tree-sitter-rust
             tree-sitter-sql
+            tree-sitter-typescript
             tree-sitter-xml
             tree-sitter-zig
             unrar-free

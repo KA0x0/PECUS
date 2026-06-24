@@ -19,11 +19,9 @@
     rz-pipe
     sleuthkit
     sqruff
-    taplo
     ty
     watchman
     waydroid
     wl-clipboard-rs
-    yamlfmt
   ];
 }

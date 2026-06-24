@@ -23,5 +23,6 @@
     watchman
     waydroid
     wl-clipboard-rs
+    yamlfmt
   ];
 }

@@ -10,7 +10,7 @@
     ghidra
     impacket
     intermodal
-    jqfmt
+    jq-lsp
     mission-planner
     mitmproxy
     netexec

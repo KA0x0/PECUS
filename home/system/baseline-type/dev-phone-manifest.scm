@@ -119,6 +119,7 @@
             squashfs-tools
             sshfs
             steam-client
+            superhtml
             syncplay
             tiled
             tree-sitter-asm

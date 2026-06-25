@@ -17,6 +17,7 @@
     netexec
     powershell
     rizin-ghidra
+    ruff
     rz-pipe
     sleuthkit
     sqruff

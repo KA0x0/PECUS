@@ -23,6 +23,7 @@
     sqruff
     tombi
     ty
+    vue-language-server
     watchman
     waydroid
     wl-clipboard-rs

@@ -30,5 +30,6 @@
     waydroid
     wl-clipboard-rs
     xdebug
+    yaml-language-server
   ];
 }

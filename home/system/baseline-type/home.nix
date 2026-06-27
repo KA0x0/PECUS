@@ -12,6 +12,7 @@
     impacket
     intermodal
     jq-lsp
+    mago
     mission-planner
     mitmproxy
     netexec

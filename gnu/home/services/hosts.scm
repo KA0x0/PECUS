@@ -44,7 +44,7 @@
                                 "maps.google.com") ;; OpenStreetMaps
                           (host ""
                                 "bing.com"
-                                "google.com") ;; Searxng
+                                "google.com") ;; Searxng - priv.au
                           (host "" ;; anonymousoverflow.privacyredirect.com
                                 "stackoverflow.com") ;; AnonymousOverflow
                           (host "" 

@@ -25,6 +25,7 @@
     tombi
     ty
     vue-language-server
+    wasm-tools
     watchman
     waydroid
     wl-clipboard-rs

@@ -154,7 +154,6 @@
             unrar-free
             upx
             valkey
-            wabt
             wget
             wine64-staging
             wireguard-tools

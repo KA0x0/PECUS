@@ -16,6 +16,7 @@
     mitmproxy
     netexec
     powershell
+    responder
     rizin-ghidra
     rz-pipe
     sleuthkit

@@ -29,5 +29,6 @@
     watchman
     waydroid
     wl-clipboard-rs
+    xdebug
   ];
 }

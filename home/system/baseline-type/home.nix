@@ -18,7 +18,6 @@
     powershell
     rizin-ghidra
     rz-pipe
-    ruff
     sleuthkit
     sqruff
     tombi

@@ -88,7 +88,7 @@
          eudev
          findutils
          gawk
-         git
+         git git-lfs
          gnupg
          grep
          groff

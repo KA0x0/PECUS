@@ -37,7 +37,7 @@
             emacs-jinx
             emacs-jq-mode ;; for ob-jq.el
             emacs-ligature
-            emacs-magit
+            emacs-magit emacs-magit-lfs
             emacs-mentor
             emacs-nerd-icons emacs-nerd-icons-completion emacs-nerd-icons-corfu emacs-nerd-icons-ibuffer
             emacs-nov
@@ -60,6 +60,7 @@
             freerdp
             gcc-toolchain
             gdb
+            git-lfs
             glibc
             gnuradio
             go

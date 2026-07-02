@@ -84,6 +84,7 @@
             mu emacs-consult-mu
             mysql
             nix
+            node-playwright-core
             openjdk
             openssh
             openssl

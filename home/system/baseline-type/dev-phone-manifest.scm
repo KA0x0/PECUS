@@ -69,6 +69,7 @@
             grim
             guile-aws
             inkscape
+            innoextract
             imagemagick
             iw
             java-eclipse-jdt-core

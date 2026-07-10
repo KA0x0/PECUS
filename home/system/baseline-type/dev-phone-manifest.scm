@@ -12,7 +12,6 @@
             binutils
             binwalk
             buildah
-            clojure emacs-cider emacs-clojure-ts-mode
             cups
             diffoscope
             difftastic emacs-difftastic emacs-magit-difftastic

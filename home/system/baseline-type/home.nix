@@ -6,7 +6,6 @@
     bloodhound-ce
     brave-origin
     buf
-    eca
     frida
     ghidra
     impacket

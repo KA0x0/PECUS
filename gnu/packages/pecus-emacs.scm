@@ -65,27 +65,6 @@
            (delete 'restore-emacs-pdmp)
            (delete 'strip-double-wrap)))))))
 
-(define-public pecus-emacs-guix-shell
-  (package
-    (name "emacs-guix-shell")
-    (version "0.1")
-    (source 
-      (origin
-       (method git-fetch)
-       (uri (git-reference
-             (url "https://git.dthompson.us/emacs-guix-shell.git")
-             (commit (string-append "v" version))))
-              (file-name (git-file-name name version))
-       (sha256
-        (base32 "6f8d6dd0e3afe8f129c362281b1b63dd70632a4f"))))
-    (build-system emacs-build-system)
-   (home-page "https://git.dthompson.us/emacs-guix-shell")
-    (synopsis "Support for 'guix shell'")
-    (description
-    "This Emacs extension integrates 'guix shell' to set per-buffer
-     environment variables appropriately.")
-    (license gpl3+)))
-
 (define-public pecus-emacs-jwt
   (package
     (name "emacs-jwt")

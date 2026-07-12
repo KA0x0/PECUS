@@ -65,7 +65,6 @@
          curl
          diffutils
          pecus-emacs-next-no-x
-         pecus-emacs-guix-shell
          emacs-ace-window
          emacs-arei
          emacs-avy

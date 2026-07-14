@@ -81,6 +81,7 @@
          emacs-logview
          emacs-marginalia
          emacs-orderless
+         emacs-puny
          emacs-vertico
          emacs-vundo
          emacs-with-editor

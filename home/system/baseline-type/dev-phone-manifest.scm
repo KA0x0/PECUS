@@ -126,7 +126,6 @@
             tree-sitter-asm
             tree-sitter-c
             tree-sitter-cpp
-            tree-sitter-clojure
             tree-sitter-csv
             tree-sitter-comment
             tree-sitter-dockerfile

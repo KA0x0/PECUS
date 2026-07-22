@@ -22,6 +22,7 @@
     sleuthkit
     sqruff
     tombi
+    turso
     ty
     vue-language-server
     wasm-tools

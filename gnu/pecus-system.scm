@@ -77,6 +77,7 @@
          emacs-doom-modeline
          emacs-embark ;; emacs-embark-consult
          emacs-eshell-syntax-highlighting
+         emacs-expreg
          emacs-guix
          emacs-logview
          emacs-marginalia

@@ -19,12 +19,9 @@
 
 (simple-service 'my-dns
                     hosts-service-type
-                    (list (host "10.0.0.1"
-                                "network"
-                                "network.internal")
-                          (host "10.0.0.50"
-                                "node"
-                                "node.internal")))
+                    (list (host "10.0.0.50"
+                                "lab"
+                                "lab.internal")))
 
 (simple-service 'my-redirect
                     hosts-service-type ;; To-do add TLD list for big services.

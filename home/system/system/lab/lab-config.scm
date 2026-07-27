@@ -37,12 +37,12 @@
   wget)
 
 (operating-system
-  (host-name "node")
+  (host-name "rack0")
   (users (cons* (user-account
-                  (name "virtualizer")
-                  (comment "I virtualize stuff")
+                  (name "home")
+                  (comment "lab")
                   (group "users")
-                  (home-directory "/home/virtualizer")
+                  (home-directory "/home/home")
                   (supplementary-groups
                     '("cgroup"
                       "kvm"
@@ -73,7 +73,7 @@
   (packages
     (append
       (list
-        physical)
+        %physical-manifest)
     %pecus-base-packages))
   (services
     (append
@@ -107,4 +107,4 @@
         %base-services
         %pecus-base-services))))
 
-;;; node-config.scm ends here
+;;; lab-config.scm ends here

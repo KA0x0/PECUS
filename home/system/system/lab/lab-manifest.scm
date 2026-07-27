@@ -7,6 +7,10 @@
 ;;; Code:
 
 (packages->manifest
-      (list wireguard-tools))
+      (list qemu
+            rtorrent@0.16.4
+            sshfs
+            tpm2-tss
+            wireguard-tools))
 
-;;; network-manifest.scm ends here
+;;; lab-manifest.scm ends here

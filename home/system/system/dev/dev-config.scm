@@ -47,7 +47,6 @@
                   (name "ka0x")
                   (comment "We are legion")
                   (group "users")
-                  (shell (file-append bash "/bin/bash"))
                   (home-directory "/home/ka0x")
                   (supplementary-groups
                     '("adbusers"

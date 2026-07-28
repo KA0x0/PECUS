@@ -6,6 +6,7 @@
     bloodhound-ce
     brave-origin
     buf
+    codeql
     frida
     ghidra
     impacket

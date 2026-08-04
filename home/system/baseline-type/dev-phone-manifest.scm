@@ -89,7 +89,7 @@
             openssh
             openssl
             openvpn
-            pandoc emacs-pandoc-mode
+            pandoc emacs-pandoc-mode poppler-next
             patch
             patchelf
             php

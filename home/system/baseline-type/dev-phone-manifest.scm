@@ -94,7 +94,7 @@
             patchelf
             php
             pinentry-emacs
-            poke emacs-poke-mode
+            poke poke-elf emacs-poke-mode
             protobuf
             pwntools
             python-angr

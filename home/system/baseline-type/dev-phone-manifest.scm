@@ -105,6 +105,7 @@
             python-scapy
             qemu
             rassumfrassum
+            reka
             retroarch libretro-dolphin-emu libretro-mupen64plus-nx
             rizin
             rr

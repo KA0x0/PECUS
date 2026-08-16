@@ -8,6 +8,7 @@
 
 (packages->manifest
       (list adb
+            aflplusplus
             ascii
             binutils
             binwalk

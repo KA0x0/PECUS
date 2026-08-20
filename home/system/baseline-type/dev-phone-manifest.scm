@@ -32,12 +32,14 @@
             emacs-emms opus-tools
             emacs-filechooser
             emacs-forge
+            emacs-gptel
             emacs-inheritenv
             emacs-jarchive
             emacs-jinx
             emacs-jq-mode ;; for ob-jq.el
             emacs-ligature
             emacs-magit
+            emacs-mcp
             emacs-mentor
             emacs-nerd-icons emacs-nerd-icons-completion emacs-nerd-icons-corfu emacs-nerd-icons-ibuffer
             emacs-nov

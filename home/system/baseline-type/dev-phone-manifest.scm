@@ -22,7 +22,6 @@
             guile-emacs
             emacs-autocrypt
             emacs-bluetooth
-            emacs-calfw
             emacs-citar emacs-citar-denote
             emacs-dape
             emacs-denote emacs-consult-denote emacs-denote-org emacs-denote-sequence

@@ -155,7 +155,7 @@
                               UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED.\n
                               All activities performed on this device are logged and monitored.\n\n")))))
 
-(define hardcoded-editor ;; sudoedit opens emacsclient
+(define hardcoded-editor-service-type ;; sudoedit opens emacsclient
   (simple-service
    'hardcoded-editor
    special-files-service-type
@@ -164,8 +164,8 @@
 
 (define-public %pecus-base-services
   (append
-      (list (service pecus-dns)
-            (service hardcoded-editor)
+      (list (service pecus-dns-service-type)
+            (service hardcoded-editor-service-type)
             (service login-service-type pecus-issue)
             (service login-service-type pecus-motd)
             (service nftables-service-type)

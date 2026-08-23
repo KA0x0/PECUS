@@ -17,13 +17,13 @@
 
 ;;; Code:
 
-(simple-service 'my-dns
+(simple-service 'pecus-dns
                     hosts-service-type
                     (list (host "10.0.0.50"
                                 "lab"
                                 "lab.internal")))
 
-(simple-service 'my-redirect
+(simple-service 'pecus-redirect
                     hosts-service-type ;; To-do add TLD list for big services.
                     (list (host ""
                                 "bandcamp.com") ;; Tent
@@ -54,7 +54,7 @@
                           (host "200.14.81.226" ;; inv.nadeko.net
                                 "youtube.com")))
 
-(simple-service 'my-adblock
+(simple-service 'pecus-adblock
                     hosts-service-type
                     (list (host "0.0.0.0"
                                 "")))

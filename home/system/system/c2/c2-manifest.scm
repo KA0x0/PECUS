@@ -7,8 +7,7 @@
 ;;; Code:
 
 (packages->manifest
-      (list rsync
-            sshfs
+      (list sshfs
             wireguard-tools))
 
 ;;; c2-manifest.scm ends here

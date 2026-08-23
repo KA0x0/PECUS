@@ -40,7 +40,6 @@
             emacs-mcp
             emacs-mentor
             emacs-nerd-icons emacs-nerd-icons-completion emacs-nerd-icons-corfu emacs-nerd-icons-ibuffer
-            emacs-nov
             emacs-org-caldav
             emacs-org-contacts
             emacs-org-vcard
@@ -83,6 +82,7 @@
             mit-krb5
             mpv ;; ffmpeg propagated by mpv
             mu emacs-consult-mu
+            mupdf
             mysql
             nix
             node-playwright-core

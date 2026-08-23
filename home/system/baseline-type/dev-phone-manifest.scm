@@ -31,13 +31,12 @@
             emacs-emms opus-tools
             emacs-filechooser
             emacs-forge
-            emacs-gptel
+            emacs-gptel emacs-mcp
             emacs-inheritenv
             emacs-jarchive
             emacs-jinx
             emacs-ligature
             emacs-magit
-            emacs-mcp
             emacs-mentor
             emacs-nerd-icons emacs-nerd-icons-completion emacs-nerd-icons-corfu emacs-nerd-icons-ibuffer
             emacs-org-caldav

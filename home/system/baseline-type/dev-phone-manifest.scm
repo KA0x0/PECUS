@@ -58,6 +58,7 @@
             freerdp
             gcc-toolchain
             gdb
+            ghostscript
             glibc
             gnuradio
             go

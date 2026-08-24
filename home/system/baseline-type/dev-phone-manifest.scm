@@ -82,7 +82,7 @@
             mit-krb5
             mpv ;; ffmpeg propagated by mpv
             mu emacs-consult-mu
-            mupdf ;; for emacs-doc-view
+            mupdf ;; for DocView
             mysql
             nix
             node-playwright-core

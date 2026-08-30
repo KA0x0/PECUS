@@ -8,7 +8,7 @@
 
 (packages->manifest
       (list qemu
-            rtorrent@0.16.4
+            rtorrent@0.16.20
             sshfs
             tpm2-tss
             wireguard-tools))

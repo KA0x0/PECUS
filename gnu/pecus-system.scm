@@ -60,7 +60,7 @@
          bcachefs-linux-module
          bcachefs-tools
          bridge-utils
-         bzip2 bzip3
+         bzip2
          coreutils
          curl
          diffutils

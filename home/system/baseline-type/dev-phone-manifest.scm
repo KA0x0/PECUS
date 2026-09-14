@@ -138,6 +138,7 @@
             tree-sitter-graphql
             tree-sitter-haskell
             tree-sitter-html
+            tree-sitter-ini
             tree-sitter-javascript
             tree-sitter-lua
             tree-sitter-make

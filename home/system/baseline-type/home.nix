@@ -30,6 +30,7 @@
     wasm-tools
     watchman
     waydroid
+    weave
     wl-clipboard-rs
     xdebug
     yaml-language-server

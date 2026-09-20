@@ -65,7 +65,6 @@
             gopls
             delve ;; go debugger
             graphviz emacs-graphviz-dot-mode
-            grim
             guile-aws
             inkscape
             innoextract
@@ -116,7 +115,6 @@
             samba
             scdoc
             sigrok-cli
-            slurp
             socat
             sqlite
             squashfs-tools

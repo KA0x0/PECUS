@@ -16,6 +16,7 @@
 [difftool]
         prompt = false
 [difftool "difftastic"]
+        name = Structural difftool
         cmd = difftastic "$LOCAL" "$REMOTE"
 [fetch]
         all = true
@@ -27,6 +28,9 @@
         defaultBranch = main
 [merge]
         conflictStyle = zdiff3
+[merge "weave"]
+        name = Entity-level semantic merge
+        driver = weave-driver %0 %A %B %L %P
 [pull]
         rebase = true
 [push]

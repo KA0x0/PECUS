@@ -4,6 +4,7 @@
   home.packages = with pkgs; [
     agent-browser
     apktool
+    azure-cli
     bloodhound-ce
     brave-origin
     buf

@@ -84,6 +84,7 @@
             mupdf ;; for DocView
             mysql
             nix
+            node
             node-playwright-core
             openjdk
             openssh
